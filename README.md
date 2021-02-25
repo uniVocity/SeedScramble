@@ -4,6 +4,25 @@ A simple utility to scramble/unscramble cryptocurrency wallet seed phrases
 
 > Brought to you by the **SHOP** stake pool
 
+## WARNINGS
+
+This is not for everyone. Use it if you have trouble trusting your own shadow and
+you know what you are doing.
+  
+ **DO NOT use this in your regular computer**. Choose one of the following security measures
+ to prevent having your secrets stolen by any malware/spyware you might have running
+ on your system:
+ 
+ 1. Boot a Linux live CD, download this app, disconnect from the internet, then run it.
+
+ 2. Run this without in an air-gapped machine that will never connect to the internet
+
+ 3. If you intend to connect your computer to the internet after running this software
+    format your hard drive and reinstall the operating system from scratch.
+    
+The key takeway here is to NEVER use this app while connected to the internet
+and ensure your system never connects to the internet after you used this app.
+    
 ## Purpose
 
 I created this tool for myself to give me peace of mind writing down seed 
@@ -53,7 +72,7 @@ If anyone finds the fake seed phrase they won't be able to steal your funds.
 
 Simply download the [latest release](https://github.com/uniVocity/SeedScramble/releases/download/1.0.0/SeedScramble.zip)
 from [the releases page](https://github.com/uniVocity/SeedScramble/releases/tag/1.0.0)
-and move it to an old computer with NO INTERNET CONNECTION. You want to do this offline.
+and move it to some device with NO INTERNET CONNECTION. You want to do this offline.
 
 Unzip the `SeedScramble.zip` file and double-click the `run` command to launch it:
 
@@ -61,5 +80,6 @@ Unzip the `SeedScramble.zip` file and double-click the `run` command to launch i
  * `run.command` on MacOS
  * `run.sh` on Linux
   
-Ideally, nuke the computer once you ran this software. 
+Make sure your system will never connect to the internet while and after you 
+use this software. 
 
