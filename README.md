@@ -26,6 +26,29 @@ It's dead simple to use, and no one will ever be able to figure out the actual
 seed phrase of your wallets.
 
 
+### Example
+
+The app is a single screen that looks like this:
+
+![thumbnail](./screenshot.png)
+
+In the example above, we assume your wallet gave the following seed phrase:
+```
+obvious regular try drama sick play travel bread congress myth broken wrist
+```
+
+You can input a password & a magic number to generate a fake seed phrase:
+
+```
+opinion universe favorite category soap plastic salon cycle polar wolf bronze scorpion
+```
+
+You can note that down in a piece of paper instead of the original seed phrase, then
+recover the original by unscrambling the fake seed with the password and magic
+number you used. 
+
+If anyone finds the fake seed phrase they won't be able to steal your funds.
+
 ## INSTALLATION
 
 Simply download the [latest release](https://github.com/uniVocity/SeedScramble/releases/download/1.0.0/SeedScramble.zip)

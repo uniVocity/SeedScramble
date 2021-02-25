@@ -263,4 +263,8 @@ public class Seed {
 		}
 		return bits;
 	}
+
+	public static void main(String ... args){
+		System.out.println(Seed.generateEnglishSeedPhrase(12));
+	}
 }
