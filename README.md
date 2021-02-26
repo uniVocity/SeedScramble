@@ -9,7 +9,7 @@ A simple utility to scramble/unscramble cryptocurrency wallet seed phrases
 This is not for everyone. Use it if you have trouble trusting your own shadow and
 you know what you are doing.
   
- **DO NOT use this in your regular computer**. Choose one of the following security measures
+**DO NOT use this in your regular computer**. Choose one of the following security measures
  to prevent having your secrets stolen by any malware/spyware you might have running
  on your system:
  
@@ -22,6 +22,14 @@ you know what you are doing.
     
 The key takeway here is to NEVER use this app while connected to the internet
 and ensure your system never connects to the internet after you used this app.
+
+**ENSURE YOU TEST EVERYTHING**. After generating the fake seed phrase and 
+writing it in a piece of paper, try to recover the original seed.
+
+**THIS IS NOT ENCRYPTION**. The solution presented here simply makes it extremely
+hard for another party to recover your original seed phrase if they find your 
+fake seed. **Keep this fake seed safe and secure as if it were your
+actual seed phrase**.
     
 ## Purpose
 
