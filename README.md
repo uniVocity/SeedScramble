@@ -15,7 +15,7 @@ you know what you are doing.
  
  1. Boot a Linux live CD, download this app, disconnect from the internet, then run it.
 
- 2. Run this without in an air-gapped machine that will never connect to the internet
+ 2. Run this in an air-gapped machine that will never connect to the internet
 
  3. If you intend to connect your computer to the internet after running this software
     format your hard drive and reinstall the operating system from scratch.
